@@ -8,8 +8,8 @@ on:
     branches:
       - main
 
-  schedule:
-      - cron: '*/360 * * * *'
+  #schedule:
+  #    - cron: '*/360 * * * *'
 
 jobs:
   tests:
